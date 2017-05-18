@@ -75,8 +75,8 @@ This configuration file works for all AIO installers with user *hass*
 HASSCTL_BRANCH=master
 
 VIRTUAL_ENV=/srv/hass
-PIP_EXEC=$VIRTUAL_ENV/hass_venv/bin/pip3
-HASS_EXEC=$VIRTUAL_ENV/hass_venv/bin/hass
+PIP_EXEC=$VIRTUAL_ENV/homeassistant_venv/bin/pip3
+HASS_EXEC=$VIRTUAL_ENV/homeassistant_venv/bin/hass
 
 HASS_CONFIG=/home/hass/.homeassistant
 HASS_USER=hass
